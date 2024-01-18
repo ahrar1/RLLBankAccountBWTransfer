@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test1" verbose="1">
+	
+	<listeners>
+		<listener class-name="Analyzer.Mytransformer"/>
+		<listener class-name="Analyzer.itestlistner"/>
+	</listeners>
+	<test name="DBbank">
+	   <classes>
+		   <class name="runner.TestNGRunner"></class>
+		   
+		   
+	   </classes>
+	</test>
+</suite>

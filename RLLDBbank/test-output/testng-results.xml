@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="15" ignored="0" total="21" passed="1" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-18T12:43:11 IST" name="Test1" finished-at="2024-01-18T12:54:31 IST" duration-ms="679242">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-18T12:43:11 IST" name="DBbank" finished-at="2024-01-18T12:54:31 IST" duration-ms="679242">
+      <class name="runner.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:43:11 IST" name="setUpClass" finished-at="2024-01-18T12:43:14 IST" duration-ms="2292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27df971b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:43:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:43:53 IST" duration-ms="38926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:43:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:44:24 IST" duration-ms="31291" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:44:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:44:59 IST" duration-ms="34763" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:44:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:45:37 IST" duration-ms="38064" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:45:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:46:11 IST" duration-ms="33846" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:46:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:46:49 IST" duration-ms="37724" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:46:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:47:18 IST" duration-ms="29484" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:47:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:48:04 IST" duration-ms="46114" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:48:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:48:35 IST" duration-ms="31148" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:48:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:49:09 IST" duration-ms="33383" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:49:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:49:39 IST" duration-ms="30040" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:49:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:50:05 IST" duration-ms="26557" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:50:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:50:33 IST" duration-ms="27229" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:50:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:51:00 IST" duration-ms="27270" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:51:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:51:25 IST" duration-ms="25152" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:51:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:52:00 IST" duration-ms="35019" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:52:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:52:31 IST" duration-ms="30281" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:52:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:52:55 IST" duration-ms="24652" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:52:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:53:25 IST" duration-ms="29330" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:53:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:53:51 IST" duration-ms="25844" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:53:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-18T12:54:22 IST" duration-ms="31382" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test amount transfer or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enter Acounts and amount for transfer amount"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [View Savings Accounts] but found [Internal Transfer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [View Savings Accounts] but found [Internal Transfer]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at stepdef.TranferPage.amount_succesfully_transfer(TranferPage.java:68)
+at ✽.amount succesfully transfer(file:///C:/Users/KIIT/eclipse-workspace/RLLDBbank/src/test/java/feature/transfer.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestNGRunner@27406a17]" started-at="2024-01-18T12:54:22 IST" name="tearDownClass" finished-at="2024-01-18T12:54:31 IST" duration-ms="8350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestNGRunner -->
+    </test> <!-- DBbank -->
+  </suite> <!-- Test1 -->
+</testng-results>
