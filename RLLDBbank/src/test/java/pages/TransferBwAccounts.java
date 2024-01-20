@@ -28,12 +28,15 @@ public class TransferBwAccounts extends TestBase{
 	@FindBy(xpath="//button[@class='btn btn-danger btn-sm']")
 	WebElement resetBtn;
 	
-	@FindBy(xpath="//h1[@id='page-title']")
+	@FindBy(xpath="//strong[text()='Transactions']")
 	WebElement succes;
 	
 	@FindBy(xpath="//span[text()='Error']")
 	WebElement unsucces;
 	
+	
+	@FindBy(xpath="//h1[@id='page-title']")
+	WebElement res;
 	
 	public TransferBwAccounts(WebDriver driver) {
 		
@@ -71,20 +74,33 @@ public class TransferBwAccounts extends TestBase{
 		Amount.sendKeys(money);
 		return Amount.isDisplayed();
 		
+		
 	}
 	public void clickSubmit() {
 		submitBtn.click();
 		
 	}
 	
+	public void clickrest() {
+		resetBtn.click();
+		
+	}
+	
 	public String validate_transfer_sussceful()
 	{
-		String account_view = succes.getText();
-		return account_view;
+		 String acount_view=res.getText();
+		return acount_view;
 	}
+	public boolean notsucessDisplay() {
+		return unsucces.isDisplayed();
+	}
+	
 	public boolean sucessDisplay() {
 		return succes.isDisplayed();
 	}
+	
+	
+	
 	
 	public String validate_transfer_unsusscefull()
 	{
@@ -93,5 +109,11 @@ public class TransferBwAccounts extends TestBase{
 		
 		
 	}
+	public boolean deselected() {
+		System.out.println("deslected from");
+		return fromAccount.isSelected();
+	}
+	
+
 	
 }
